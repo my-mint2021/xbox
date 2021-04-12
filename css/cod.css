@@ -1,0 +1,144 @@
+.cod-image {
+  padding-top: 60px;
+  min-height: 550px;
+  height: 100vh;
+  background: url(../img/CoD-WWII.jpg) center/cover no-repeat;
+}
+
+.cod-image__title {
+  margin-left: 60%;
+  margin-top: 10%;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.cod-image__subtitle {
+  margin-left: 60%;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.cod-image__button {
+  margin-left: 60%;
+  margin-top: 180px;
+}
+
+.cod-image__button a + a {
+  margin-left: 10px;
+}
+
+.cod-image__green:hover {
+  color: black;
+}
+
+.cod-video {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.cod-video__title {
+  padding-top: 100px;
+  font-size: 36px;
+  line-height: 42px;
+  color: #435766;
+}
+
+.cod-video__button {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.cod-video__green:hover {
+  color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9df044), to(#178a17));
+  background: linear-gradient(180deg, #9df044 0%, #178a17 100%);
+}
+
+.cod-video__dark:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4e4f50), to(#191a1b));
+  background: linear-gradient(180deg, #4e4f50 0%, #191a1b 100%);
+}
+
+.cod-desc {
+  width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.cod-desc__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.cod-desc__text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 50%;
+  font-size: 36px;
+  line-height: 42px;
+  color: #435766;
+}
+
+.cod-desc__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  text-align: center;
+}
+
+.cod-desc__img img {
+  width: 80%;
+}
+
+.cod-text {
+  width: 1100px;
+  margin: 0  auto;
+  color: #435766;
+}
+
+.cod-text__title {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cod-text__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.cod-text__desc {
+  margin-bottom: 100px;
+}
+
+.cod-text__desc p {
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.cod-text__button {
+  text-align: center;
+  margin-bottom: 100px;
+}
